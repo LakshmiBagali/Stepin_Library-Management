@@ -10,7 +10,7 @@ void menu()
 	int count1=0;
     do
     {
-        printf("\n\n\n\n-------  MAIN MENU  --------");
+        printf("\n\n\n\n-------  CONTENTS  --------");
         printf("\n1.Add Books");
         printf("\n2.Search Books");
         printf("\n3.View Books");
@@ -36,27 +36,29 @@ void menu()
         case 5:
 		    printf("\n\n\t\t\tSELECT DEPARTMENT :");
             printf("\n\t\t\t------------------------------------------------\n");
-		    printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t7.Others");
-			printf("\n\t\t\tYOUR CHOICE:");
+		    printf("\n\t\t\t1.Dictionary\n\t\t\t2.Health_Fitness\n\t\t\t3.Philosophy\n\t\t\t4.Textbook\n\t\t\t5.Autobiography\n\t\t\t6.Fiction\n\t\t\t7.Others");
+			printf("\n\t\tMAKE CHOICE:");
 			scanf("%d",&deptchoice);
-			switch(deptchoice){
-				case 1:strcpy(dept_ty,"History");
+
+			switch(deptchoice)
+            {
+				case 1:strcpy(dept_ty,"Dictionary");
 				break;
-				case 2:strcpy(dept_ty,"Arts_Music");
+				case 2:strcpy(dept_ty,"Health_Fitness");
 				break;
-				case 3:strcpy(dept_ty,"Biograhies");
+				case 3:strcpy(dept_ty,"Philosophy");
 				break;
-				case 4:strcpy(dept_ty,"Bussiness");
+				case 4:strcpy(dept_ty,"Textbook");
 				break;
-				case 5:strcpy(dept_ty,"Comics");
+				case 5:strcpy(dept_ty,"Autobiography");
 				break;
-				case 6:strcpy(dept_ty,"Computer_Tech");
+				case 6:strcpy(dept_ty,"Fiction");
 				break;
 				case 7:strcpy(dept_ty,"Others");
 				break;
 				default:printf("Invalid choice");
 			}
-			//scanf("%s",cat_ty);
+			//scanf("%s", dept_ty);
             deptBookCnt=noOfBooksByDepartment(dept_ty,count1);
 			printf("NUMBER OF BOOKS: %d",deptBookCnt);
             break;
@@ -73,17 +75,21 @@ void menu()
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------
 
-int main() {
+int main() 
+{
 	int Pin,pinflag;
-    printf("\n\n\nWELCOME TO LIBRARY MANAGEMENT SYSTEM\n");
+    printf("\n\n\nWELCOME TO BOOK HOUSE\n");
     printf("------------------------------------------------");
 	printf("\n\nPIN : ");
 	scanf("%d",&Pin);
 	pinflag = init(Pin);
-	if(pinflag == 0){
-        printf("\nTRY AGAIN LATER");
+	if(pinflag == 0)
+    {
+        printf("\nTRY AGAIN SOMETIME");
         exit(0);
-    } else {
+    } 
+    else 
+    {
         printf("\nSUCCESSFUL");
     }
 	menu();	

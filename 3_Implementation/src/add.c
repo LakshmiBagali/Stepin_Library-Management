@@ -14,20 +14,20 @@ int addingBook()
 	printf("\n\t\t\tEnter author name = ");
 	scanf("%s", book[count].authorName); // enter a author name 
 	printf("\n\t\t\tEnter department = ");
-	printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t");
+	printf("\n\t\t\t1.Dictionary\n\t\t\t2.Health_Fitness\n\t\t\t3.Philosophy\n\t\t\t4.Textbook\n\t\t\t5.Autobiography\n\t\t\t6.Fiction\n\t\t\t");
 	scanf("%d",&choosedeptr);
 	switch(choosedeptr){ // switch to choose department 
-		case 1:strcpy(book[count].department,"History");
+		case 1:strcpy(book[count].department,"Dictionary");
 		break;
-		case 2:strcpy(book[count].department,"Arts_Music");
+		case 2:strcpy(book[count].department,"Health_Fitness");
 		break;
-		case 3:strcpy(book[count].department,"Biograhies");
+		case 3:strcpy(book[count].department,"Philosophy");
 		break;
-		case 4:strcpy(book[count].department,"Bussiness");
+		case 4:strcpy(book[count].department,"Textbook");
 		break;
-		case 5:strcpy(book[count].department,"Comics");
+		case 5:strcpy(book[count].department,"Autobiography");
 		break;
-		case 6:strcpy(book[count].department,"Computer_Tech");
+		case 6:strcpy(book[count].department,"Fiction");
 		break;
 		default:strcpy(book[count].department,"Others");
 	}
