@@ -3,7 +3,7 @@
 /* Add book information */
 int addingBook()
 {
-    int chooseCatg;
+    int choosedeptr;
     printf("ADD NEW BOOKS");
     printf("\n\n\t\t\tENTER YOUR DETAILS BELOW:");
     printf("\n\t\t\t---------------------------------------------------------------------------\n");
@@ -13,26 +13,26 @@ int addingBook()
 	scanf("%s", book[count].bookName); // enter book name
 	printf("\n\t\t\tEnter author name = ");
 	scanf("%s", book[count].authorName); // enter a author name 
-	printf("\n\t\t\tEnter catagory = ");
+	printf("\n\t\t\tEnter department = ");
 	printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t");
-	scanf("%d",&chooseCatg);
-	switch(chooseCatg){ // switch to choose category 
-		case 1:strcpy(book[count].catagory,"History");
+	scanf("%d",&choosedeptr);
+	switch(choosedeptr){ // switch to choose department 
+		case 1:strcpy(book[count].department,"History");
 		break;
-		case 2:strcpy(book[count].catagory,"Arts_Music");
+		case 2:strcpy(book[count].department,"Arts_Music");
 		break;
-		case 3:strcpy(book[count].catagory,"Biograhies");
+		case 3:strcpy(book[count].department,"Biograhies");
 		break;
-		case 4:strcpy(book[count].catagory,"Bussiness");
+		case 4:strcpy(book[count].department,"Bussiness");
 		break;
-		case 5:strcpy(book[count].catagory,"Comics");
+		case 5:strcpy(book[count].department,"Comics");
 		break;
-		case 6:strcpy(book[count].catagory,"Computer_Tech");
+		case 6:strcpy(book[count].department,"Computer_Tech");
 		break;
-		default:strcpy(book[count].catagory,"Others");
+		default:strcpy(book[count].department,"Others");
 	}
-	//scanf("%s", book[count].catagory);
-	//strcpy(book[count].catagory,"History");
+	//scanf("%s", book[count].department);
+	//strcpy(book[count].department,"History");
 	printf("\n\t\t\tEnter pages = ");
 	scanf("%d", &book[count].pages);
     printf("\n\t\t\tEnter price = ");

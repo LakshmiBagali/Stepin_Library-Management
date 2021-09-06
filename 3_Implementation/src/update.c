@@ -2,7 +2,7 @@
 
 /* edit the book information */
 void updateBook(int count){
-	int bookid,chooseCatg,flag=0;;
+	int bookid,choosedeptr,flag=0;;
 	printf("\n\n\t\t\tENTER BOOK ID:");
 	scanf("%d",&bookid);
     printf("\n\t\t\t----------------------------------------------\n");
@@ -16,10 +16,10 @@ void updateBook(int count){
 			scanf("%s", book[i].bookName);
 			printf("\n\t\t\tEnter new author:"); // Enter new author name
 			scanf("%s", book[i].authorName);
-			printf("\n\t\t\tEnter new department = "); // Enter new catagory
+			printf("\n\t\t\tEnter new department = "); // Enter new department
 	        printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t");
-	        scanf("%d",&chooseCatg);
-			switch(chooseCatg){  // switch to choose category 
+	        scanf("%d",&choosedeptr);
+			switch(choosedeptr){  // switch to choose department 
 				case 1:strcpy(book[i].department,"History");
 		        break;
 		        case 2:strcpy(book[i].department,"Arts_Music");

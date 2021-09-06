@@ -16,7 +16,7 @@ void viewBooks(int count){
 					book[i].authorName);
 					
 				printf("\n\t\t\t catagory = %s",
-					book[i].catagory);
+					book[i].department);
 
 				printf("\n\t\t\t pages = %d",
 					book[i].pages);

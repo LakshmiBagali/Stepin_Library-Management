@@ -7,7 +7,7 @@ int noOfBooksByDepartment(char cat_ty[],int count){
 	for (int i = 0; i < count; i++) {
 
 				if (strcmp(cat_ty,
-						book[i].catagory)
+						book[i].department)
 					== 0)
 					departmentBookCount++;
 			} 

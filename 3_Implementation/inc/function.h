@@ -7,7 +7,7 @@
 
 #define MAX_BOOK_NAME   50
 #define MAX_AUTHOR_NAME 50
-#define MAX_CATAGORY_NAME 50
+#define MAX_DEPARTMENT_NAME 50
 
 /**
  * @brief structure for a book information
@@ -18,7 +18,7 @@ struct booksInfo
     unsigned int books_id; 
     char bookName[MAX_BOOK_NAME];
     char authorName[MAX_AUTHOR_NAME];
-    char catagory[MAX_CATAGORY_NAME];
+    char department[MAX_DEPARTMENT_NAME];
     int pages;
 	float price;
 };
@@ -63,10 +63,10 @@ void updateBook();
 /**
  * @brief return the number of books in particular category
  * 
- * @param cat_ty 
+ * @param dept_ty 
  * @param count 
  * @return int 
  */
-int noOfBooksByCatagory(char cat_ty[],int count);
+int noOfBooksByDepartment(char dept_ty[],int count);
 
 #endif /* #define _FUNCTION_H__ */

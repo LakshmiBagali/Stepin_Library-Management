@@ -1,72 +1,91 @@
-#ifndef __FUNCTION_H__
-#define __FUNCTION_H__
+#include "function.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+//-----------------------------------------------------------------------------------------------------------------------------------------------------
 
-#define MAX_BOOK_NAME   50
-#define MAX_AUTHOR_NAME 50
-#define MAX_DEPARTMENT_NAME 50
-
-/**
- * @brief structure for a book information
- * 
- */
-struct booksInfo
+/* function to show the operation menu*/
+void menu()
 {
-    unsigned int books_id; 
-    char bookName[MAX_BOOK_NAME];
-    char authorName[MAX_AUTHOR_NAME];
-    char department[MAX_DEPARTMENT_NAME];
-    int pages;
-	float price;
-};
+    int choice = 0,deptBookCnt,deptchoice;
+	char dept_ty[30];
+	int count1=0;
+    do
+    {
+        printf("\n\n\n\n-------  MAIN MENU  --------");
+        printf("\n1.Add Books");
+        printf("\n2.Search Books");
+        printf("\n3.View Books");
+        printf("\n4.Update Book");
+		printf("\n5.Department Book Count");
+        printf("\n0.Exit");
+        printf("\n\n\nEnter choice => ");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+        case 1:
+            count1=addingBook();
+            break;
+        case 2:
+            searchBooks(count1);
+            break;
+        case 3:
+            viewBooks(count1);
+            break;
+        case 4:
+            updateBook(count1);
+            break;
+        case 5:
+		    printf("\n\n\t\t\tSELECT DEPARTMENT :");
+            printf("\n\t\t\t------------------------------------------------\n");
+		    printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t7.Others");
+			printf("\n\t\t\tYOUR CHOICE:");
+			scanf("%d",&deptchoice);
+			switch(deptchoice){
+				case 1:strcpy(dept_ty,"History");
+				break;
+				case 2:strcpy(dept_ty,"Arts_Music");
+				break;
+				case 3:strcpy(dept_ty,"Biograhies");
+				break;
+				case 4:strcpy(dept_ty,"Bussiness");
+				break;
+				case 5:strcpy(dept_ty,"Comics");
+				break;
+				case 6:strcpy(dept_ty,"Computer_Tech");
+				break;
+				case 7:strcpy(dept_ty,"Others");
+				break;
+				default:printf("Invalid choice");
+			}
+			//scanf("%s",cat_ty);
+            deptBookCnt=noOfBooksByDepartment(dept_ty,count1);
+			printf("NUMBER OF BOOKS: %d",deptBookCnt);
+            break;
+        case 0:
+            printf("\n\n\n\t\t\t\tThank you!!!\n\n\n\n\n");
+            exit(1);
+            break;
+        default:
+            printf("\n\n\n\t\t\tINVALID INPUT!!! Try again...");
+        }                                            
+    }
+    while(choice!=0);                                        
+}
 
-struct booksInfo book[10];
-static int count=0;
+//------------------------------------------------------------------------------------------------------------------------------------------------------
 
-/**
- * @brief take pin as input and returns the result
- * 
- * @param pin 
- * @return int 
- */
-int init(int pin);
-
-/**
- * @brief add book info and return number of books
- * 
- * @return int 
- */
-int addingBook();
-
-/**
- * 
- * @brief function to search for book based on the book name
- * 
- */
-void searchBooks();
-
-/**
- * @brief function to list the books
- * 
- */
-void viewBooks();
-
-/**
- * @brief to edit the book information with help of bood Id
- * 
- */
-void updateBook();
-
-/**
- * @brief return the number of books in particular category
- * 
- * @param cat_ty 
- * @param count 
- * @return int 
- */
-int noOfBooksByDepartment(char cat_ty[],int count);
-
-#endif /* #define _FUNCTION_H__ */
+int main() {
+	int Pin,pinflag;
+    printf("\n\n\nWELCOME TO LIBRARY MANAGEMENT SYSTEM\n");
+    printf("------------------------------------------------");
+	printf("\n\nPIN : ");
+	scanf("%d",&Pin);
+	pinflag = init(Pin);
+	if(pinflag == 0){
+        printf("\nTRY AGAIN LATER");
+        exit(0);
+    } else {
+        printf("\nSUCCESSFUL");
+    }
+	menu();	
+	return 0;
+}
