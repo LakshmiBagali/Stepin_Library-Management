@@ -48,12 +48,12 @@ If Indian App firm is chosen to create a Library Management System then the cost
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| HR01 | User shall be able to login to the system    | Techincal | IMPLEMENTED |
-| HR02 | User shall be able to add new book record | Techincal | IMPLEMENTED | 
+| HR01 | User shall be able to login to the system(using pin)    | Techincal | IMPLEMENTED |
+| HR02 | User shall be able to add new book information | Techincal | IMPLEMENTED | 
 | HR03 | User shall be able to search a book record | Techincal |  IMPLEMENTED  |
-| HR04 | User shall be able to view book records | Techincal |  IMPLEMENTED  |
-| HR05 | User shall be able to update a book record | Techincal |  IMPLEMENTED  |
-| HR06 | User shall be able to count of book for required catagory | Techincal |  IMPLEMENTED  |
+| HR04 | User shall be able to display book records | Techincal |  IMPLEMENTED  |
+| HR05 | User shall be able to edit/update a book record | Techincal |  IMPLEMENTED  |
+| HR06 | User shall be able to count of book for required department | Techincal |  IMPLEMENTED  |
 
 ##  Low level Requirements:
  
