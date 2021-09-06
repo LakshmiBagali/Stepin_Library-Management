@@ -16,23 +16,23 @@ void updateBook(int count){
 			scanf("%s", book[i].bookName);
 			printf("\n\t\t\tEnter new author:"); // Enter new author name
 			scanf("%s", book[i].authorName);
-			printf("\n\t\t\tEnter new catagory = "); // Enter new catagory
+			printf("\n\t\t\tEnter new department = "); // Enter new catagory
 	        printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t");
 	        scanf("%d",&chooseCatg);
 			switch(chooseCatg){  // switch to choose category 
-				case 1:strcpy(book[i].catagory,"History");
+				case 1:strcpy(book[i].department,"History");
 		        break;
-		        case 2:strcpy(book[i].catagory,"Arts_Music");
+		        case 2:strcpy(book[i].department,"Arts_Music");
 		        break;
-		        case 3:strcpy(book[i].catagory,"Biograhies");
+		        case 3:strcpy(book[i].department,"Biograhies");
 		        break;
-		        case 4:strcpy(book[i].catagory,"Bussiness");
+		        case 4:strcpy(book[i].department,"Bussiness");
 		        break;
-		        case 5:strcpy(book[i].catagory,"Comics");
+		        case 5:strcpy(book[i].department,"Comics");
 		        break;
-		        case 6:strcpy(book[i].catagory,"Computer_Tech");
+		        case 6:strcpy(book[i].department,"Computer_Tech");
 		        break;
-		        default:strcpy(book[i].catagory,"Others");
+		        default:strcpy(book[i].department,"Others");
 				}
 			printf("\n\t\t\tEnter new no pages = ");
 	        scanf("%d", &book[i].pages);

@@ -39,7 +39,7 @@ int init(int pin);
  * 
  * @return int 
  */
-int addBook();
+int addingBook();
 
 /**
  * 

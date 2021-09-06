@@ -1,7 +1,7 @@
 #include "function.h"
 
 /* Add book information */
-int addBook()
+int addingBook()
 {
     int chooseCatg;
     printf("ADD NEW BOOKS");
