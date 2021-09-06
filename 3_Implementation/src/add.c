@@ -32,7 +32,7 @@ int addingBook()
 		default:strcpy(book[count].department,"Others");
 	}
 	//scanf("%s", book[count].department);
-	//strcpy(book[count].department,"History");
+	//strcpy(book[count].department,"Dictionary");
 	printf("\n\t\t\tEnter pages = ");
 	scanf("%d", &book[count].pages);
     printf("\n\t\t\tEnter price = ");
