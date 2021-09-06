@@ -1,6 +1,6 @@
 #include "function.h"
 
-/* gives count of book in particular category*/
+/* gives count of book in particular department*/
 
 int noOfBooksByDepartment(char cat_ty[],int count){
 	int departmentBookCount = 0;
