@@ -3,13 +3,11 @@
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 /* function to show the operation menu*/
-void menu()
-{
+void menu(){
     int choice = 0,deptBookCnt,deptchoice;
 	char dept_ty[30];
 	int count1=0;
-    do
-    {
+    do{
         printf("\n\n\n\n-------  CONTENTS  --------");
         printf("\n1.Add Books");
         printf("\n2.Search Books");
@@ -19,8 +17,7 @@ void menu()
         printf("\n0.Exit");
         printf("\n\n\nEnter choice => ");
         scanf("%d",&choice);
-        switch(choice)
-        {
+        switch(choice){
         case 1:
             count1=addingBook();
             break;
@@ -40,8 +37,7 @@ void menu()
 			printf("\n\t\tMAKE CHOICE:");
 			scanf("%d",&deptchoice);
 
-			switch(deptchoice)
-            {
+			switch(deptchoice){
 				case 1:strcpy(dept_ty,"Dictionary");
 				break;
 				case 2:strcpy(dept_ty,"Health_Fitness");
