@@ -15,7 +15,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 
 ## Defining Our System
 
-### Explanation:
+### Explanation
 * Features in Library Management System:
     * Login to system(Using pin)
     * Adding a book information
@@ -31,7 +31,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 * Collections
 * Drive to understand the perspective of user.
 
-### Weaknesses:
+### Weaknesses
 * Lack fo funding
 * Prioritization.
 
@@ -45,23 +45,23 @@ If Indian App firm is chosen to create a Library Management System then the cost
 
 # 4W&#39;s and 1&#39;H
 
-## Why:
+## Why
 * Helps to maintain the information of the book.
 
-## What:
+## What
 * To implement system to add,search,view and update books record.
 
-## When:
+## When
 * To reduce the manual work and save time.
 
-## Where:
+## Where
 * At a place where there is a collection of different things in one place.
 
 ## How:
 * To build a system with all features required.
 
 # Detail requirements
-## High Level Requirements: 
+## High Level Requirements 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
 | HR01 | User shall be able to login to the system(using pin)    | Techincal | IMPLEMENTED |
@@ -71,7 +71,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 | HR05 | User shall be able to edit/update a book record | Techincal |  IMPLEMENTED  |
 | HR06 | User shall be able to count of book for required department | Techincal |  IMPLEMENTED  |
 
-##  Low level Requirements:
+##  Low level Requirements
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
