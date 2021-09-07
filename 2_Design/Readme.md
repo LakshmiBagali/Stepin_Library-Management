@@ -17,7 +17,7 @@
 ### Level Zero DFD :
 
 
-![LevelZeroDFD](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/2_Design/DFD0.png)
+![LevelZeroDFD](https://github.com/LakshmiBagali/Stepin_Library-Management/blob/main/2_Design/DFD0.png)
 
 ### Level One DFD :
 
