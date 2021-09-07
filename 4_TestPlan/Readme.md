@@ -1,4 +1,4 @@
-# TEST PLAN:
+# TEST PLAN
 
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** | **Pass/Fail** |
