@@ -8,10 +8,8 @@
 ### Library Management System
 As the name itself says System which means systematic set of things and procedures. In the case of a library management system, the parts work together to support the management of library information resources..It is a collection of books of different genre which is accessible to everyone.Library make space for everyone to study,which is a general body maintained by government,institution or an individual.
  
-
 ## Cost and Features 
 If Indian App firm is chosen to create a Library Management System then the cost can range between $25000-$35000. This estimate is when the system is being developed with basic features and for a single platform.
-
 
 ## Defining Our System
 
