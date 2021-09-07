@@ -5,7 +5,7 @@ void searchBooks(int count) {
 	char bk_nm[30];
 	int flag=0;
 
-	printf("\n\t\t\tENTER BOOK NAME: "); //Enter book name to check availability 
+	printf("\n\t\t\tENTER BOOK NAME: "); //Enter book name to check its availability 
 			scanf("%s", bk_nm);
 			for(int i = 0; i < count; i++) {
 				if (strcmp(bk_nm,book[i].bookName)== 0){
