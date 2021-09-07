@@ -26,39 +26,39 @@ If Indian App firm is chosen to create a Library Management System then the cost
 
 ## SWOT ANALYSIS
 ### Strengths
-* Curiosity and need to learn.
-* Respected and valued by users.
+* Curiosity and need to learn
+* Respected and valued by users
 * Collections
-* Drive to understand the perspective of user.
+* Drive to understand the perspective of user
 
 ### Weaknesses
 * Lack fo funding
-* Prioritization.
+* Prioritization
 
 ### Opportunuties
-* Chance to advocate for digital privacy.
-* More inter-sectoral collaboration.
+* Chance to advocate for digital privacy
+* More inter-sectoral collaboration
 
 ### Threats
-* Lack of strong professional body.
-* Replacement of staff by automated services.
+* Lack of strong professional body
+* Replacement of staff by automated services
 
 # 4W&#39;s and 1&#39;H
 
 ## Why
-* Helps to maintain the information of the book.
+* Helps to maintain the information of the book
 
 ## What
-* To implement system to add,search,view and update books record.
+* To implement system to add,search,view and update books record
 
 ## When
-* To reduce the manual work and save time.
+* To reduce the manual work and save time
 
 ## Where
-* At a place where there is a collection of different things in one place.
+* At a place where there is a collection of different things in one place
 
 ## How
-* To build a system with all features required.
+* To build a system with all features required
 
 # Detail requirements
 
