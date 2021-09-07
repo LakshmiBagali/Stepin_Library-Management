@@ -5,7 +5,7 @@
  * This project is chosen as I visit library on daily basis and using C programming helps me to understand the working operations of library internally.
  
 ## Research
-### Library Management System.
+### Library Management System
 As the name itself says System which means systematic set of things and procedures. In the case of a library management system, the parts work together to support the management of library information resources..It is a collection of books of different genre which is accessible to everyone.Library make space for everyone to study,which is a general body maintained by government,institution or an individual.
  
 
@@ -15,7 +15,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 
 ## Defining Our System
 
-### Explanation:
+### Explanation
 * Features in Library Management System:
     * Login to system(Using pin)
     * Adding a book information
@@ -25,43 +25,44 @@ If Indian App firm is chosen to create a Library Management System then the cost
     * Count of book in each department
 
 ## SWOT ANALYSIS
-### Strengths:
-* Curiosity and need to learn.
-* Respected and valued by users.
+### Strengths
+* Curiosity and need to learn
+* Respected and valued by users
 * Collections
-* Drive to understand the perspective of user.
+* Drive to understand the perspective of user
 
-### Weaknesses:
+### Weaknesses
 * Lack fo funding
-* Prioritization.
+* Prioritization
 
 ### Opportunuties
-* Chance to advocate for digital privacy.
-* More inter-sectoral collaboration.
+* Chance to advocate for digital privacy
+* More inter-sectoral collaboration
 
 ### Threats
-* Lack of strong professional body.
-* Replacement of staff by automated services.
+* Lack of strong professional body
+* Replacement of staff by automated services
 
 # 4W&#39;s and 1&#39;H
 
-## Why:
-* Helps to maintain the information of the book.
+## Why
+* Helps to maintain the information of the book
 
-## What:
-* To implement system to add,search,view and update books record.
+## What
+* To implement system to add,search,view and update books record
 
-## When:
-* To reduce the manual work and save time.
+## When
+* To reduce the manual work and save time
 
-## Where:
-* At a place where there is a collection of different things in one place.
+## Where
+* At a place where there is a collection of different things in one place
 
-## How:
-* To build a system with all features required.
+## How
+* To build a system with all features required
 
 # Detail requirements
-## High Level Requirements: 
+
+## High Level Requirements 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
 | HR01 | User shall be able to login to the system(using pin)    | Techincal | IMPLEMENTED |
@@ -71,7 +72,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 | HR05 | User shall be able to edit/update a book record | Techincal |  IMPLEMENTED  |
 | HR06 | User shall be able to count of book for required department | Techincal |  IMPLEMENTED  |
 
-##  Low level Requirements:
+## Low level Requirements
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
