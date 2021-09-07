@@ -5,7 +5,7 @@
  * This project is chosen as I visit library on daily basis and using C programming helps me to understand the working operations of library internally.
  
 ## Research
-### Library Management System.
+### Library Management System
 As the name itself says System which means systematic set of things and procedures. In the case of a library management system, the parts work together to support the management of library information resources..It is a collection of books of different genre which is accessible to everyone.Library make space for everyone to study,which is a general body maintained by government,institution or an individual.
  
 
@@ -25,7 +25,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
     * Count of book in each department
 
 ## SWOT ANALYSIS
-### Strengths:
+### Strengths
 * Curiosity and need to learn.
 * Respected and valued by users.
 * Collections
@@ -57,10 +57,11 @@ If Indian App firm is chosen to create a Library Management System then the cost
 ## Where
 * At a place where there is a collection of different things in one place.
 
-## How:
+## How
 * To build a system with all features required.
 
 # Detail requirements
+
 ## High Level Requirements 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
@@ -71,7 +72,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 | HR05 | User shall be able to edit/update a book record | Techincal |  IMPLEMENTED  |
 | HR06 | User shall be able to count of book for required department | Techincal |  IMPLEMENTED  |
 
-##  Low level Requirements
+## Low level Requirements
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
