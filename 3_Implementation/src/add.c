@@ -10,9 +10,9 @@ int addingBook()
     printf("\n\t\t\tBook ID NO  = ");
     scanf("%u",&book[count].books_id);
     printf("\n\t\t\tEnter book name = ");
-	scanf("%s", book[count].bookName); // enter book name
+	scanf("%4s", book[count].bookName); // enter book name
 	printf("\n\t\t\tEnter author name = ");
-	scanf("%s", book[count].authorName); // enter a author name 
+	scanf("%4s", book[count].authorName); // enter a author name 
 	printf("\n\t\t\tEnter department = ");
 	printf("\n\t\t\t1.Dictionary\n\t\t\t2.Health_Fitness\n\t\t\t3.Philosophy\n\t\t\t4.Textbook\n\t\t\t5.Autobiography\n\t\t\t6.Fiction\n\t\t\t");
 	scanf("%d",&choosedeptr);

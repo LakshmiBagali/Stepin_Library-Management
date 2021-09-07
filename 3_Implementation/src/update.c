@@ -13,9 +13,9 @@ void updateBook(int count){
 			printf("\n\t\t\tBOOK ID%d",book[i].books_id);
 			printf(" AVAILABLE.....");
 			printf("\n\t\t\tEnter new name:"); // Enter the new book name
-			scanf("%s", book[i].bookName);
+			scanf("%4s", book[i].bookName);
 			printf("\n\t\t\tEnter new author:"); // Enter new author name
-			scanf("%s", book[i].authorName);
+			scanf("%4s", book[i].authorName);
 			printf("\n\t\t\tEnter new department = "); // Enter new department
 	        printf("\n\t\t\t1.Dictionary\n\t\t\t2.Health_Fitness\n\t\t\t3.Philosophy\n\t\t\t4.Textbook\n\t\t\t5.Autobiography\n\t\t\t6.Fiction\n\t\t\t");
 	        scanf("%d",&choosedeptr);
