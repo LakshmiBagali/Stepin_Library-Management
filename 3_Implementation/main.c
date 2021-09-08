@@ -54,7 +54,7 @@ void menu(){
 				break;
 				default:printf("Invalid choice");
 			}
-			//scanf("%4s", dept_ty);
+			//scanf("%s", dept_ty);
             deptBookCnt=noOfBooksByDepartment(dept_ty,count1);
 			printf("NUMBER OF BOOKS: %d",deptBookCnt);
             break;
